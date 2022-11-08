@@ -1,0 +1,21 @@
+<Configuration>
+    <Add OfficeClientEdition="64" Channel="Current" AllowCdnFallback="true">
+    <Product ID="O365ProPlusRetail">
+      <Language ID="en-gb" />
+      <Language ID="zh-cn" />
+      <ExcludeApp ID="Access" />
+      <ExcludeApp ID="Bing" />
+      <ExcludeApp ID="Groove" />
+      <ExcludeApp ID="Lync" />
+      <ExcludeApp ID="OneDrive" />
+      <ExcludeApp ID="OneNote" />
+      <ExcludeApp ID="Outlook" />
+      <ExcludeApp ID="Publisher" />
+      <ExcludeApp ID="Teams" />
+    </Product>
+    </Add>
+    <Display Level="None" AcceptEULA="TRUE" />
+    <Display AcceptEULA="True" />
+    <Property Name="AutoActivate" Value="1" />
+    <Updates Enabled="false" />
+</Configuration>
